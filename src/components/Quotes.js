@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
 const Quote = ({props}) => {
-  useEffect(() => {
-  },[props])
   return (
     <>
       <p className='text-4xl text-black font-bold'>"{props.quote}"</p>
@@ -19,7 +17,7 @@ export default function Quotes({quote, loading, error}) {
         (<p className='text-4xl text-black font-bold'>Please try again tomorrow</p>)
         :
         (loading ?
-          (<p className='text-4xl text-black font-bold'>...</p>)
+          (<p className='text-4xl text-black font-bold'>...Loading...</p>)
             :
             (quote && quote.data ? <Quote props={quote.data} /> : <p className='text-4xl text-black font-bold'> Select a character below </p>)
           )

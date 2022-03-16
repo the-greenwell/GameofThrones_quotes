@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Quotes from './Quotes.js';
-import Characters from './Characters.js';
 import QuoteService from '../services/quote_service.js';
 
-export default function Content() {
+export default function Content({children}) {
   const [character, setCharacter] = useState('');
   const [quote, setQuote] = useState({});
   const [error, setError] = useState(false);
@@ -41,10 +39,10 @@ export default function Content() {
   },[random])
 
   return (
-    <div className='w-screen h-5/6 grid content-between bg-[#FCF5E5]'>
-      <button className='bg-gray-200 hover:bg-gray-100 border-b-4 border-gray-400 hover:border-gray-200 text-black p-2 w-40 h-min justify-self-center mt-2 rounded' onClick={() => setRandom(true)}> Random Quote </button>
-      <Quotes loading={loading} setLoading={setLoading} quote={quote} error={error}/>
-      <Characters setCharacter={setCharacter} selected={character}/>
+    <div className='w-screen h-5/6 grid content-between bg-[#FCF5E5] pt-3 px-5'>
+      {React.cloneElement(children[0], {loading:loading, setLoading:setLoading, quote:quote, error:error, setRandom:setRandom})}
+      <button className='bg-yellow-300 hover:bg-yellow-200 border-b-4 border-yellow-500 hover:border-yellow-400 text-black p-2 w-60 h-min justify-self-center mt-2 rounded' onClick={() => setRandom(true)}> Random Quote </button>
+      {React.cloneElement(children[1], {setCharacter: setCharacter, selected: character})}
     </div>
   )
 }
