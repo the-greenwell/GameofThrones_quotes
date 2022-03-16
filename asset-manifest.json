@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.8274fb53.css",
-    "main.js": "/react-gh-pages/static/js/main.7139c832.js",
-    "static/js/787.0427ae6b.chunk.js": "/react-gh-pages/static/js/787.0427ae6b.chunk.js",
-    "static/media/hodor.png": "/react-gh-pages/static/media/hodor.39f95725518ea6113340.png",
-    "static/media/lord_varys.png": "/react-gh-pages/static/media/lord_varys.ea676a472ad53d7c27b6.png",
-    "static/media/daenerys_targaryen.png": "/react-gh-pages/static/media/daenerys_targaryen.6ea08598613445723f99.png",
-    "static/media/jon_snow.png": "/react-gh-pages/static/media/jon_snow.548ec61d3ca406df8a3c.png",
-    "static/media/oberyn_martell.png": "/react-gh-pages/static/media/oberyn_martell.98ea5e7b84ea0b0393ac.png",
-    "static/media/cersei_lannister.png": "/react-gh-pages/static/media/cersei_lannister.cc87fc47dfda4bdf82d1.png",
-    "static/media/petyr_baelish.png": "/react-gh-pages/static/media/petyr_baelish.3e26ea5736ca2a1ef886.png",
-    "static/media/arya_stark.png": "/react-gh-pages/static/media/arya_stark.79163ee641014590e4f0.png",
-    "static/media/tyrion_lannister.png": "/react-gh-pages/static/media/tyrion_lannister.4a0b70b8004d80870a5d.png",
-    "static/media/crown.png": "/react-gh-pages/static/media/crown.f3abc4e3e2e130f3eef9.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.8274fb53.css.map": "/react-gh-pages/static/css/main.8274fb53.css.map",
-    "main.7139c832.js.map": "/react-gh-pages/static/js/main.7139c832.js.map",
-    "787.0427ae6b.chunk.js.map": "/react-gh-pages/static/js/787.0427ae6b.chunk.js.map"
+    "main.css": "/gameothrones_quotes/static/css/main.8274fb53.css",
+    "main.js": "/gameothrones_quotes/static/js/main.bed67961.js",
+    "static/js/787.0427ae6b.chunk.js": "/gameothrones_quotes/static/js/787.0427ae6b.chunk.js",
+    "static/media/hodor.png": "/gameothrones_quotes/static/media/hodor.39f95725518ea6113340.png",
+    "static/media/lord_varys.png": "/gameothrones_quotes/static/media/lord_varys.ea676a472ad53d7c27b6.png",
+    "static/media/daenerys_targaryen.png": "/gameothrones_quotes/static/media/daenerys_targaryen.6ea08598613445723f99.png",
+    "static/media/jon_snow.png": "/gameothrones_quotes/static/media/jon_snow.548ec61d3ca406df8a3c.png",
+    "static/media/oberyn_martell.png": "/gameothrones_quotes/static/media/oberyn_martell.98ea5e7b84ea0b0393ac.png",
+    "static/media/cersei_lannister.png": "/gameothrones_quotes/static/media/cersei_lannister.cc87fc47dfda4bdf82d1.png",
+    "static/media/petyr_baelish.png": "/gameothrones_quotes/static/media/petyr_baelish.3e26ea5736ca2a1ef886.png",
+    "static/media/arya_stark.png": "/gameothrones_quotes/static/media/arya_stark.79163ee641014590e4f0.png",
+    "static/media/tyrion_lannister.png": "/gameothrones_quotes/static/media/tyrion_lannister.4a0b70b8004d80870a5d.png",
+    "static/media/crown.png": "/gameothrones_quotes/static/media/crown.f3abc4e3e2e130f3eef9.png",
+    "index.html": "/gameothrones_quotes/index.html",
+    "main.8274fb53.css.map": "/gameothrones_quotes/static/css/main.8274fb53.css.map",
+    "main.bed67961.js.map": "/gameothrones_quotes/static/js/main.bed67961.js.map",
+    "787.0427ae6b.chunk.js.map": "/gameothrones_quotes/static/js/787.0427ae6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8274fb53.css",
-    "static/js/main.7139c832.js"
+    "static/js/main.bed67961.js"
   ]
 }
