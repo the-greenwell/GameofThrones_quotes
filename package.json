@@ -1,7 +1,7 @@
 {
   "name": "got_quotes",
   "version": "0.1.0",
-  "homepage": "https://the-greenwell.github.io/react-gh-pages",
+  "homepage": "https://the-greenwell.github.io/gameothrones_quotes",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
