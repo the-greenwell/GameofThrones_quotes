@@ -1,0 +1,44 @@
+user can select game type
+  - guess the quoter
+  - true or false (char test)
+    - pick characters and guess w
+  - random quote generator
+
+user see's box with quote inside and 3 characters below it
+
+user selects which character they believe said the quote
+  - right answer gives a correct notification and score is increased
+  - wrong answer gives a wrong notification and score is unchanged
+
+once game has finished (timer or total - tbd) user is taken to a score page
+ with their score and a sharable link
+
+ components
+  - navbar
+  - landing page
+  - game page
+    - score
+    - quotes box
+    - character stage
+
+ services
+  - quote service
+    - makes the api calls to the GoT Quote API
+      - get random quote
+      - get quotes for game
+  - char service
+    - get one char
+      - gets char matching quote
+    - get random char's
+      - gets multiple chars including correct char for quote
+
+  Characters
+    - arya stark
+    - john snow
+    - cersei lannister
+    - tyrion lannister
+    - oberyn martell
+    - petyr baelish
+    - daenerys targaryen
+    - hodor
+    -
